@@ -1,0 +1,20 @@
+name: 'Treasure Workflow'
+description: 'Push your project to Treasure Workflow'
+inputs:
+  td_wf_endpoint:
+    description: 'Treasure Workflow API Endpoint'
+    required: true
+    default: 'api-workflow.treasuredata.com'
+  td_master_apikey:
+    description: 'Treasure Data Master API'
+    required: true
+  td_wf_project_name:
+    description: 'Treasure Workflow Project Name'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  env:
+    td_wf_endpoint: ${{ inputs.td_wf_endpoint }}
+    td_master_apikey: ${{ inputs.td_master_apikey }}
+    td_wf_project_name: ${{ inputs.td_wf_project_name }}
