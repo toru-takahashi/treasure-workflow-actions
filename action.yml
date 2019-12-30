@@ -18,3 +18,7 @@ runs:
     td_wf_endpoint: ${{ inputs.td_wf_endpoint }}
     td_master_apikey: ${{ inputs.td_master_apikey }}
     td_wf_project_name: ${{ inputs.td_wf_project_name }}
+
+branding:
+  icon: 'check'
+  color: 'blue'
