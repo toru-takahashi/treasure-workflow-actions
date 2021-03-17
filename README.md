@@ -6,9 +6,10 @@ GitHub Actions for Treasure Workflow, for performing a task to push a project to
 
 - `TD_MASTER_APIKEY`: Treasure Data Master APIKEY (required) (secrets)
 - `TD_WF_API_ENDPOINT`: Treasure Workflow API Endpoint (optional)
-    - US region (default): api-workflow.treasuredata.com
-    - Tokyo region: api-workflow.treasuredata.co.jp
-    - EU01 region: api-workflow.eu01.treasuredata.com
+    - US region (default): https://api-workflow.treasuredata.com
+    - Tokyo region: https://api-workflow.treasuredata.co.jp
+    - EU01 region: https://api-workflow.eu01.treasuredata.com
+    - AP02 region: https://api-workflow.ap02.treasuredata.com
 - `TD_WF_PROJECT_NAME`: Treasure Workflow Project Name (required)
 
 ## Usage
